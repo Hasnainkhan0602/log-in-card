@@ -1,0 +1,88 @@
+*{
+   
+    box-sizing: border-box;
+ 
+}
+body{
+    
+    background-color: #FBAB7E;
+background-image: linear-gradient(180deg, #FBAB7E 0%, #F7CE68 71%);
+
+    
+height: 100vh;
+width: 100vw;
+
+}
+.container{
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+            height: 100%;
+            width: 100%;
+
+   
+}
+.box{
+  
+height: 500px;
+width: 400px;
+background-color: #faffff;
+border-radius: 20px;
+box-shadow: 10px 5px 15px black;
+
+}
+.image1{
+    max-height: 100%;
+            max-width: 100%;
+    object-fit: contain;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+H1{
+    gap: 15px;
+    margin: 10px;
+    font-size: small;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+ 
+
+}
+p{
+    margin: 20px;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+ 
+
+}
+.buttons{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+   button{
+    font-size: larger;
+    background-color: rgb(243, 120, 71);
+    border-radius: 10px;
+    box-shadow: 5px 3px 5px black;
+    padding: 3px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+ 
+   }
+   a{
+    color: white;
+   }
+}
+
+.end{
+    font-size: larger;
+    
+}
+
